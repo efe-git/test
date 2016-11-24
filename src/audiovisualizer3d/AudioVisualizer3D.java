@@ -134,7 +134,7 @@ public class AudioVisualizer3D extends Application implements AudioSpectrumListe
         getAudioMediaPlayer().setAudioSpectrumInterval(0.02);
         getAudioMediaPlayer().setAudioSpectrumNumBands(128);
         getAudioMediaPlayer().setCycleCount(Timeline.INDEFINITE);
-
+        System.out.println("");
         sceneRoot.setRotationAxis(Rotate.X_AXIS);
         sceneRoot.setRotate(180.0);
         sceneRoot.setTranslateY(-100.0);
